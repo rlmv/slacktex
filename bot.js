@@ -43,7 +43,7 @@ rtm.on(RTM_EVENTS.MESSAGE, function handleMessage(message) {
  * Check if the string is formatted like LaTeX.
  */
 function latexFormatted(text) {
-    return text[0] === '$' && text[text.length-1] === '$';
+    return text && text[0] === '$' && text[text.length-1] === '$';
 };
 
 /*
