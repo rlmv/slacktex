@@ -4,7 +4,8 @@
     "description": "A Slack bot for rendering LaTeX equations.",
     "main": "bot.js",
     "dependencies": {
-        "@slack/client": "3.13.0"
+        "@slack/client": "3.13.0",
+        "forever": "*"
     },
     "devDependencies": {},
     "scripts": {
